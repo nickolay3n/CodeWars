@@ -12,8 +12,9 @@ namespace construct_test
     {
         static void Main(string[] args)
         {
-            TestConstruct my = new TestConstruct(3);
-            Console.WriteLine("iiiiii = "+4);
+            TestConstruct my = new TestConstruct();
+            Console.WriteLine("--------------");
+            my = new TestConstruct(3);
         }
     }
 }
